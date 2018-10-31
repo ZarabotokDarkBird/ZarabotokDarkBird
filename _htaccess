@@ -1,0 +1,5 @@
+<Files "*.dat">
+  deny from all
+</Files>
+RewriteRule ^k-([0-9]+)$ kurs.php?id=$1
+RewriteRule ^k-([0-9]+)/$ kurs.php?id=$1
